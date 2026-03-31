@@ -1,6 +1,6 @@
 // Bug 1: null check ledu
 function getUserName(user) {
-  return user.name.toUpperCase(); // user null aithe crash avutundi
+  return user.name.toUpperCase();
 }
 
 // Bug 2: SQL injection risk
@@ -14,4 +14,4 @@ async function fetchData(url) {
   return response.json();
 }
 
-module.exports = { getUserName, getUser, fetchData };// test change
+module.exports = { getUserName, getUser, fetchData };
